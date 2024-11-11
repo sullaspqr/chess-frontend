@@ -8,6 +8,6 @@ A CRUD teljes és ez az egész csak oktatási célra készült.
 # Végpontok listája (swagger):
 [Swagger](https://chess.sulla.hu/swagger/index.html)
 
-# Pizza backend:
-[Pizza végpont](http://chess.sulla.hu/Chess)<br>
-[Pizza végpont ID-ra (pl.1)](http://chess.sulla.hu/Chess/1)
+# Chess backend:
+[chess végpont](http://chess.sulla.hu/Chess)<br>
+[chess végpont ID-ra (pl.1)](http://chess.sulla.hu/Chess/1)
