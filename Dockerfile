@@ -1,7 +1,7 @@
 # 1. Build fázis
 FROM node:18-alpine as builder
 WORKDIR /app
-COPY package.json yarn.lock ./
+COPY package.json package-lock.json* ./  # Csak package.json és package-lock.json
 RUN npm install
 COPY . .
 RUN npm run build
