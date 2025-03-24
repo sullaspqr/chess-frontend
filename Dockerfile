@@ -1,6 +1,6 @@
 FROM node:18-alpine as builder
 WORKDIR /app
-COPY package.json ./   # CSAK package.json másolása
+COPY package.json ./
 RUN npm install
 COPY . .
 RUN npm run build
