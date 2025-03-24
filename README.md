@@ -10,5 +10,5 @@ A CRUD teljes és ez az egész csak oktatási célra készült.
 [chess végpont ID-ra (pl.1)](http://chess.sulla.hu/Chess/1)
 
 # Chess frontend - production:
-[chess végpont]([https://chess-frontend-w183.onrender.com/](https://chess-frontend-w183.onrender.com/))
+[chess végpont](https://chess-frontend-w183.onrender.com/))
 
