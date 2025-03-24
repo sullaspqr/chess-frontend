@@ -1,12 +1,10 @@
-# 1. Build fázis
 FROM node:18-alpine as builder
 WORKDIR /app
-COPY package.json package-lock.json* ./  # Csak package.json és package-lock.json
+COPY package.json ./   # CSAK package.json másolása
 RUN npm install
 COPY . .
 RUN npm run build
 
-# 2. Futtatás
 FROM node:18-alpine
 RUN npm install -g serve
 WORKDIR /app
