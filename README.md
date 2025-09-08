@@ -11,7 +11,3 @@ A CRUD teljes és ez az egész csak oktatási célra készült.
 
 # Chess frontend - production:
 [chess végpont](https://chess-frontend-w183.onrender.com/)
-
-# Helló sziasztok!
-Itt a linkem:
-https://www.sulla.hu
